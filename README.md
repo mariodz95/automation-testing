@@ -1,7 +1,7 @@
 # Automation testing project for MTTP
-![Ferit](ferit.png)
+![Ferit](ferit.png?raw=true)
 
-![Ferit](https://github.com/mariodz95/automation-testing/tree/master/assets/ferit.png)
+![Ferit](https://github.com/mariodz95/automation-testing/tree/master/assets/ferit.png?raw=true)
 
 
 
