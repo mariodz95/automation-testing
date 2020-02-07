@@ -1,7 +1,7 @@
 # Automation testing project for MTTP
 <p align="center">
 ![Ferit](ferit.png)
-    <img width="600" height="200" src="ferit.png">
+    <img src="ferit.png">
 
 </p>
 
