@@ -22,7 +22,7 @@ Visual studio can be downloaded here - [Visual studio](https://visualstudio.micr
 
 Reporting files are saved in folder ...\automation-test\bin\Debug\netcoreapp2.2
 
-After You star aplication: 
+After You start aplication: 
 1) Click on Test
 2) Windows
 3) Test Explorer
