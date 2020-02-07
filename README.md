@@ -1,3 +1,5 @@
 # automation-testing
 
-#For this testin you will need it
+# 1. About the project
+
+# 2. Project setup
