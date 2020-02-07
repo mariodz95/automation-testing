@@ -2,6 +2,7 @@
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Edge;
 using OpenQA.Selenium.Firefox;
+using OpenQA.Selenium.Opera;
 using System;
 using WebDriverManager;
 using WebDriverManager.DriverConfigs.Impl;
