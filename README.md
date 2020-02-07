@@ -19,7 +19,7 @@ All the necessary tools are installed through the nuget packages.
 
 Visual studio can be downloaded here - [Visual studio](https://visualstudio.microsoft.com/downloads/)
 
-Reporting files are saved in ...\automation-test\bin\Debug\netcoreapp2.2
+Reporting files are saved in folder ...\automation-test\bin\Debug\netcoreapp2.2
 
 
 ### Tools used in this project
