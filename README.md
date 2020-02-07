@@ -23,7 +23,7 @@ Reporting files are saved in folder ...\automation-test\bin\Debug\netcoreapp2.2
 
 
 <p align="center">
-    <img width="1000" src="setp1.png">
+    <img width="600" src="setp1.png">
 </p>
 
 <p align="center">
