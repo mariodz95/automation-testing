@@ -29,7 +29,7 @@ Reporting files are saved in folder ...\automation-test\bin\Debug\netcoreapp2.2
 3) Test Explorer
 
 <p align="center">
-    <img width="600" src="setp1.png">
+    <img width="600" src="step1.png">
 </p>
 
 On test explorer window you can select to run all test or select one test to run.
