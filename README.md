@@ -22,5 +22,3 @@ Visual studio can be downloaded here - [Visual studio](https://visualstudio.micr
 Reporting files are saved in folder ...\automation-test\bin\Debug\netcoreapp2.2
 
 
-### Tools used in this project
-For developing this project C# and Nunit was used.
