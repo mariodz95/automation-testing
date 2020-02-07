@@ -18,7 +18,7 @@ In this project, automation testing was implemented for the web site [HGSHOP](ht
 You only need to have a visual studio installed to start this project. 
 All the necessary tools are installed through the nuget packages.
 
-Visual studio can be istalled here - [Visual studio](https://visualstudio.microsoft.com/downloads/)
+Visual studio can be downloaded here - [Visual studio](https://visualstudio.microsoft.com/downloads/)
 
 Reporting files are saved in ...\automation-test\bin\Debug\netcoreapp2.2
 
