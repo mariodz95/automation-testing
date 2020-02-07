@@ -9,7 +9,7 @@
 
 
 This project is created for the assignment at "Methods and Techinques of Software Testing" course at FERIT Osijek. 
-In this project, automation testing was implemented for the web site [HGSHOP](https://www.hgshop.hr/).
+In this project, automation testing was implemented for the website [HGSHOP](https://www.hgshop.hr/).
 
 
 ## 2. Project setup
