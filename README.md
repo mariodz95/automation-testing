@@ -21,6 +21,9 @@ Visual studio can be downloaded here - [Visual studio](https://visualstudio.micr
 
 Reporting files are saved in folder ...\automation-test\bin\Debug\netcoreapp2.2
 
+1) Click on Test
+2) Test Window
+3) Test Explorer
 
 <p align="center">
     <img width="600" src="setp1.png">
