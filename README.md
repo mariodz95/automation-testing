@@ -1,5 +1,5 @@
 # Automation testing project for MTTP
-![Alt text]("https://www.google.com/search?q=Ferit+logo&sxsrf=ACYBGNQGfmX0Z1RlepcpekbGKHcRCa78ZQ:1581095586201&tbm=isch&source=iu&ictx=1&fir=fgLboOGDILxlnM%253A%252CWQSulygVTryQOM%252C_&vet=1&usg=AI4_-kRl2wS1SK0xtnuCPdCO1R5-vlXZsg&sa=X&ved=2ahUKEwiT1JWG-L_nAhUBYsAKHXM9BxcQ9QEwAHoECAoQBA#imgrc=fgLboOGDILxlnM")
+![Alt text]("https://www.google.com/search?q=Ferit+logo&sxsrf=ACYBGNQGfmX0Z1RlepcpekbGKHcRCa78ZQ:1581095586201&tbm=isch&source=iu&ictx=1&fir=fgLboOGDILxlnM%253A%252CWQSulygVTryQOM%252C_&vet=1&usg=AI4_-kRl2wS1SK0xtnuCPdCO1R5-vlXZsg&sa=X&ved=2ahUKEwiT1JWG-L_nAhUBYsAKHXM9BxcQ9QEwAHoECAoQBA#imgrc=fgLboOGDILxlnM?raw=true")
 
 ## 1. About the project
 
