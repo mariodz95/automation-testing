@@ -85,7 +85,6 @@ namespace Tests
 
             CartPageObject cart = new CartPageObject();
             cart.Pay("testiranje paymant-a");
-            Thread.Sleep(100);
             cart.clickFinish();
             report.PassOrFailed(_test);
         }
