@@ -1,6 +1,8 @@
 # Automation testing project for MTTP
 ![Ferit](https://github.com/mariodz95/automation-testing/tree/testing/assets/ferit.png)
 
+			<img src="https://sindresorhus.com/assets/thanks/botpress-logo.svg" width="260" alt="Botpress">
+
 
 ## 1. About the project
 
