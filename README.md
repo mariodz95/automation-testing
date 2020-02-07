@@ -1,4 +1,5 @@
-# automation-testing
+# Automation testing project for MTTP
+![alt text](https://www.google.com/search?q=Ferit+logo&sxsrf=ACYBGNRtvxaOXh1w_643-Q_CbOW-BDy--Q:1581095391828&tbm=isch&source=iu&ictx=1&fir=012SXej2RFHspM%253A%252CB9VzhPbeGZGaHM%252C_&vet=1&usg=AI4_-kSGXlaECvLBR717sPn0DpEadMLSTg&sa=X&ved=2ahUKEwi4-b2p97_nAhXwsIsKHd7ZDgcQ9QEwAXoECAoQBg#imgrc=fgLboOGDILxlnM)
 
 ## 1. About the project
 
