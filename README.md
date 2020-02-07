@@ -13,27 +13,13 @@ In this project, automation testing was implemented for the web site HGSHOP. [HG
 
 ## 2. Project setup
 
-You only need to have a visual studio installed to start this project
+You only need to have a visual studio installed to start this project. 
+All the necessary tools are installed through the nuget packages.
+
 Visual studio can be istalled here - [Visual studio (https://visualstudio.microsoft.com/downloads/)
 
-Reporting file are in rout C:\Users\Mario\Desktop\Testiranje projekt\automation-testing\automation-test\automation-test\bin\Debug\netcoreapp2.2
+Reporting files are saved in ...\automation-test\bin\Debug\netcoreapp2.2
 
 
 ### Tools used in this project
-Katalon recorder: test skripta (html format)
-export test skripte: C# (web driver + NUnit format)
-Visual studio: kreiranje unit test project-a
-NUnit framework
-Selenimu webdrive rkoristi se kao api za kontrolu browsera
-browser korištenje drivera
-
-Alati:
-Visual studio
-Kreirat Nunit .core project 
-instalirati preko nuget packages
-Selenium WebDriver
-Selenium Support
-WebDriverChromeDriver
-GeckoDriver
-DotNetSeleniumExtras.PageObjects
-ExtentReport
+For developing this project C# and Nunit was used.
