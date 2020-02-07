@@ -24,7 +24,7 @@ namespace automation
         [FindsBy(How = How.CssSelector, Using = "a[href='/profile.aspx']")]
         public IWebElement login { get; set; }
 
-        public HomePageObject Login(string userName, string _password)
+        public void Login(string userName, string _password)
         {
             login.Click();
 
@@ -32,7 +32,6 @@ namespace automation
             password.EnterText(_password);
 
             submit.Clicks();
-            return new HomePageObject();
         }
     }
 }
