@@ -22,14 +22,41 @@ namespace automation
         public IWebElement incrementButton{ get; set; }
 
         [FindsBy(How = How.LinkText, Using = "Završi kupovinu")]
-        public IWebElement Cart { get; set; }
+        public IWebElement cart { get; set; }
+
+
+        [FindsBy(How = How.Name, Using = "priceFrom")]
+        public IWebElement priceFrom { get; set; }
+
+        [FindsBy(How = How.Name, Using = "priceTo")]
+        public IWebElement priceTo { get; set; }
+
+        [FindsBy(How = How.Id, Using = "brand_id")]
+        public IWebElement brandSelector { get; set; }
+
+        [FindsBy(How = How.Name, Using = "8892-878")]
+        public IWebElement procBrand { get; set; }
+
+ 
+
 
         public CartPageObject AddToBasket()
         {
             buyButton.Clicks();
             incrementButton.Clicks();
-            Cart.Clicks();
+            cart.Clicks();
             return new CartPageObject();
         }  
+
+        public void Filtering(string priceFromValue, string priceToValue, string brand, string proc)
+        {
+            priceFrom.EnterText(priceFromValue);
+            priceTo.EnterText(priceToValue);
+            brandSelector.SelectDropDown(brand);
+            procBrand.SelectDropDown(proc);
+        }
+
+
     }
+
 }

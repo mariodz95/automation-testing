@@ -4,6 +4,7 @@ using SeleniumExtras.PageObjects;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading;
 using Tests;
 
 namespace automation
@@ -37,10 +38,10 @@ namespace automation
         [FindsBy(How = How.Id, Using = "kartice")]
         public IWebElement payment { get; set; }
 
-        [FindsBy(How = How.ClassName, Using = "kosarica-next")]
+        [FindsBy(How = How.XPath, Using = "//div[2]/button[2]")]
         public IWebElement nextButton3 { get; set; }
 
-
+  
         public void Pay(string textInput)
         {
             cart.Clicks();
@@ -50,11 +51,17 @@ namespace automation
             dropdown.SelectDropDown("Osijek");
             payment.Clicks();
             remarkTxt.EnterText(textInput);
-            WebDriverWait wait = new WebDriverWait(PropertiesCollection.driver, TimeSpan.FromSeconds(10));
-            IWebElement element = wait.Until(ExpectedConditions.ElementToBeClickable(By.ClassName("kosarica-next")));
+
+       
+        }
+
+        public void clickFinish()
+        {
             nextButton3.Clicks();
         }
 
- 
     }
+
+
+
 }

@@ -1,12 +1,14 @@
 ﻿using NUnit.Framework;
 using OpenQA.Selenium.Chrome;
+using OpenQA.Selenium.Edge;
 using OpenQA.Selenium.Firefox;
-using OpenQA.Selenium.IE;
+using System;
 using WebDriverManager;
 using WebDriverManager.DriverConfigs.Impl;
 
 namespace automation
 {
+    [SetUpFixture]
     public class Browsers
     {
         protected string browser;
@@ -28,16 +30,25 @@ namespace automation
                 case "Chrome":
                     new DriverManager().SetUpDriver(new ChromeConfig());
                     PropertiesCollection.driver = new ChromeDriver();
-                    break;       
+                    break;
                 case "Firefox":
                     new DriverManager().SetUpDriver(new FirefoxConfig());
                     PropertiesCollection.driver = new FirefoxDriver();
                     break;
-                case "IE":
-                    new DriverManager().SetUpDriver(new InternetExplorerConfig());
-                    PropertiesCollection.driver = new InternetExplorerDriver();
+                case "Edge":
+                    new DriverManager().SetUpDriver(new EdgeConfig());
+                    PropertiesCollection.driver = new EdgeDriver(".");
                     break;
             }
+            PropertiesCollection.driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(1000);
+        }
+
+
+
+        [OneTimeTearDown]
+        public void Cleanup()
+        {
+            PropertiesCollection.driver.Quit();
         }
     }
 }

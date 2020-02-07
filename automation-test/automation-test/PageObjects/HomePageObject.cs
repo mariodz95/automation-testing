@@ -29,6 +29,13 @@ namespace automation
         [FindsBy(How = How.XPath, Using = "(//a[contains(text(),'Kabeli')])[12]")]
         public IWebElement categoryItem { get; set; }
 
+        [FindsBy(How = How.LinkText, Using = "RAČUNALA")]
+        public IWebElement pc { get; set; }
+
+        [FindsBy(How = How.XPath, Using = "(//a[contains(text(),'Prijenosna računala')])[5]")]
+        public IWebElement laptops { get; set; }
+
+
         public CategoryItemPageObject AddItemToBasket()
         {
             itEquipment.Clicks();
@@ -47,6 +54,9 @@ namespace automation
             searchButton.Click();
         }
 
-
+        public void GoToSmartphones() {
+            pc.Clicks();
+            laptops.Clicks();
+        }
     }
 }
