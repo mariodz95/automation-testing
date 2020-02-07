@@ -1,6 +1,4 @@
 # Automation testing project for MTTP
-<div style="text-align:center"><img src="![Ferit](ferit.png)" /></div>
-
 <p align="center">
     <img src="ferit.png">
 </p>
