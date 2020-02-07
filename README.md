@@ -1,10 +1,6 @@
 # Automation testing project for MTTP
 ![Ferit](ferit.png)
 
-![Ferit](https://github.com/mariodz95/automation-testing/tree/master/assets/ferit.png)
-
-
-
 ## 1. About the project
 
 ### About the project
