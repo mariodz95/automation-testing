@@ -22,3 +22,12 @@ Visual studio can be downloaded here - [Visual studio](https://visualstudio.micr
 Reporting files are saved in folder ...\automation-test\bin\Debug\netcoreapp2.2
 
 
+<p align="center">
+    <img src="step1.png">
+</p>
+<p align="center">
+    <img src="step2png">
+</p>
+<p align="center">
+    <img src="reporting.png">
+</p>
