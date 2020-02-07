@@ -34,6 +34,7 @@ namespace Tests
 
             report = new ReportsGenerationClass();
             mainObject = new HomePageObject();
+            categoryItem = new CategoryItemPageObject();
 
             var htmlReporter = new ExtentV3HtmlReporter(@""+ browser + ".html");
 
@@ -50,7 +51,7 @@ namespace Tests
             _test = report.BeforeTest(_extent);
 
             LoginPageObject pageLogin = new LoginPageObject();
-            main = pageLogin.Login(PropertiesCollection.Username, PropertiesCollection.Password);
+            pageLogin.Login(PropertiesCollection.Username, PropertiesCollection.Password);
             report.PassOrFailed(_test);
         }
 
@@ -71,7 +72,7 @@ namespace Tests
         {
             _test = report.BeforeTest(_extent);
 
-            categoryItem = mainObject.AddItemToBasket();
+            mainObject.AddItemToBasket();
             categoryItem.AddToBasket();
 
             report.PassOrFailed(_test);

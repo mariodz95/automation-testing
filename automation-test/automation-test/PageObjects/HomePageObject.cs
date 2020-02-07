@@ -36,11 +36,10 @@ namespace automation
         public IWebElement laptops { get; set; }
 
 
-        public CategoryItemPageObject AddItemToBasket()
+        public void AddItemToBasket()
         {
             itEquipment.Clicks();
             categoryItem.Clicks();
-            return new CategoryItemPageObject();
         }
 
         public void SearchItem(string inputData)
